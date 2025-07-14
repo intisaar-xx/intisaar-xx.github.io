@@ -75,7 +75,7 @@ a:hover,a:focus {
 }
 .navbar-custom .nav li a:hover {
 	outline:0;
-	color:#1ba39c;
+	color:#2aada7;
 	background-color:transparent;
 }
 .navbar-custom .nav li a:focus,.navbar-custom .nav li a:active {
@@ -86,10 +86,10 @@ a:hover,a:focus {
 	outline:0;
 }
 .navbar-custom .nav li.active a {
-	color:#1ba39c;
+	color:#2aada7;
 }
 .navbar-custom .nav li.active a:hover {
-	color:#1ba39c;
+	color:#2aada7;
 }
 @media(min-width:768px) {
 	.navbar-custom {
@@ -325,9 +325,23 @@ p.lead {
 	margin-top:20px;
 	display:inline-block;
 }
+.btnghost1{
+	border:2px solid #ffffff;
+	padding:10px 10px;
+	letter-spacing:3px;
+	font-size:12px;
+	font-weight:400;
+	color:#ffffff;
+	display:inline-block;
+}
 .btnghost:hover {
 	background-color:#333;
 	color:#fff;
+	border:2px solid #333;
+}
+.btnghost1:hover {
+	background-color:#ffffff;
+	color:#000000;
 	border:2px solid #333;
 }
 .bgcover {
@@ -417,4 +431,8 @@ section {
 	-moz-transition:border linear 0.2s,box-shadow linear 0.2s;
 	-o-transition:border linear 0.2s,box-shadow linear 0.2s;
 	transition:border linear 0.2s,box-shadow linear 0.2s;	
+}
+#inti:hover{
+	color: #2aada7;
+	font-size: x-large;
 }
